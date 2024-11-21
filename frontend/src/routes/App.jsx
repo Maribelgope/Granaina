@@ -8,7 +8,7 @@ import {
   Navigate
 } from "react-router-dom";
 import { useAuthContext } from "./hooks/useAuthContext";
-
+import Login from './routes/login'; 
 // Pages
 import AboutUs from './routes/about.jsx'
 import AccountPage from './routes/accountPage';

@@ -62,10 +62,10 @@ function Root() {
             <ProductCardSimulado key={product._id} ProductInfoSimulado={product} />
           )) : (
             <>
-              <ProductCardLoading />
-              <ProductCardLoading />
-              <ProductCardLoading />
-              <ProductCardLoading />
+              <ProductCardLoading /><div><h1>carta</h1></div>
+              <ProductCardLoading /><div><h1>carta</h1></div>
+              <ProductCardLoading /><div><h1>carta</h1></div>
+              <ProductCardLoading /><div><h1>carta</h1></div>
             </>
           )}
         </div>
